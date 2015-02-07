@@ -23,7 +23,6 @@ module.exports = function(config) {
       'bower_components/angular-aria/angular-aria.js',
       'bower_components/angular-messages/angular-messages.js',
       'app/scripts/**/*.js',
-      // 'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 

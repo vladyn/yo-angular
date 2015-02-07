@@ -19,5 +19,8 @@ angular.module('ngExercisesApp')
     	topBar: true, 
     	footer: true,
     	sidebar: true
-    }
+    };
+    $scope.changeLayout = function(mode) {
+    	$scope.layout.columns = mode;
+    };
   });
