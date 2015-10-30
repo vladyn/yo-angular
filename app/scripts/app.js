@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name artsHistoryKidsApp
+ * @name ahkApp
  * @description
- * # artsHistoryKidsApp
+ * # ahkApp
  *
  * Main module of the application.
  */
 angular
-  .module('artsHistoryKidsApp', [
+  .module('ahkApp', [
     'ngAnimate',
     'ngCookies',
     'ngMessages',
@@ -21,7 +21,7 @@ angular
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'app/views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })

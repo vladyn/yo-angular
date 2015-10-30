@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name artsHistoryKidsApp.controller:AppmanCtrl
+ * @name ahkApp.controller:AppmanCtrl
  * @description
  * # AppmanCtrl
- * Controller of the artsHistoryKidsApp
+ * Controller of the ahkApp
  */
-angular.module('artsHistoryKidsApp')
+angular.module('ahkApp')
   .controller('AppmanCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
