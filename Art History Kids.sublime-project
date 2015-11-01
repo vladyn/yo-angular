@@ -4,9 +4,9 @@
 		{
 			"file_exclude_patterns":
 			[
-				".bowerrc",
-				".editorconfig",
-				".jshintrc",
+				// ".bowerrc",
+				// ".editorconfig",
+				// ".jshintrc",
 				".map",
 				".sublime-grunt.cache",
 				"logs/*",
@@ -14,8 +14,8 @@
 				"node_modules/*",
 				"sftp-config.json",
 				"build/logs/*",
-				".log",
-				"npm-debug.log",
+				// ".log",
+				// "npm-debug.log",
 				".settings/",
 				".project",
 				".tern-project",

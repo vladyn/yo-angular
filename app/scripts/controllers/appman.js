@@ -10,8 +10,8 @@
 angular.module('ahkApp')
   .controller('AppmanCtrl', function () {
     this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+        'HTML5 Boilerplate',
+        'AngularJS',
+        'Karma'
     ];
   });

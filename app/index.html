@@ -39,22 +39,22 @@
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Отвън</a></li>
-              <li><a ng-href="about">Преди</a></li>
+              <li><a ng-href="views/1">Преди</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Централна зала <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a ng-href="/">Централна зала</a></li>
                   <li><a ng-href="/">Централна зала</a></li>
-                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Какво има в музея?</a></li>
                   <li role="separator" class="divider"></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">зала <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Зала "Трезор"<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a ng-href="/">Централна зала</a></li>
-                  <li><a ng-href="/">Централна зала</a></li>
-                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Начало</a></li>
+                  <li><a ng-href="/">Луковитско съкровище</a></li>
+                  <li><a ng-href="/">Вълчидрънско съкровище</a></li>
                   <li role="separator" class="divider"></li>
                 </ul>
               </li>
@@ -65,15 +65,20 @@
     </div>
 
     <div class="container">
-    <div ng-view=""></div>
+        <div ng-view=""></div>
     </div>
-
-    <nav>
-      <ul class="pager">
-        <li><a href="#">Previous</a></li>
-        <li><a href="#">Next</a></li>
-      </ul>
-    </nav>
+    <div class="container">        
+        <nav ng-controller="PagerCtrl as pager">
+            <ul class="pager">
+                <li class="previous">
+                    <a ng-click="pager.movePage('back')" href="#" ng-hide="pager.back"><span aria-hidden="true">&larr;</span> {{pager.page.label_prev}}</a>
+                </li>
+                <li class="next">
+                    <a ng-click="pager.movePage('next')" href="#" ng-hide="pager.next">{{pager.page.label_next}} <span aria-hidden="true">&rarr;</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
     <div class="footer">
       <div class="container">
@@ -113,6 +118,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/appman.js"></script>
+        <script src="scripts/controllers/pager.js"></script>
         <!-- endbuild -->
 </body>
 </html>
