@@ -32,15 +32,32 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">artsHistoryKids</a>
+            <a class="navbar-brand glyphicon glyphicon-home" href="/"></a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a ng-href="about">About</a></li>
-              <li><a ng-href="/">Contact</a></li>
+              <li class="active"><a href="/">Отвън</a></li>
+              <li><a ng-href="about">Преди</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Централна зала <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li role="separator" class="divider"></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">зала <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li><a ng-href="/">Централна зала</a></li>
+                  <li role="separator" class="divider"></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -51,9 +68,16 @@
     <div ng-view=""></div>
     </div>
 
+    <nav>
+      <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+    </nav>
+
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-heart"></span> Проект на HISTORY ART KIDS</p>
       </div>
     </div>
 
