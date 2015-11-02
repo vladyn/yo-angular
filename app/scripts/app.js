@@ -25,13 +25,20 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/views/:view', {
+        templateUrl: function routeParams (params) {
+          return "/views/view"+params.view+".html";
+        },
+        controller: 'MainCtrl',
+        controllerAs: 'main'
+      })
       .when('/about/', {
         templateUrl: '/views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/#'
       });
       $locationProvider.html5Mode({
         enabled: true,
