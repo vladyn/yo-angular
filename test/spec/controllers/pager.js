@@ -37,7 +37,6 @@ describe('Controller: PagerCtrl', function () {
         views: -1
     });
     PagerCtrl.movePage('back');
-    console.log($location.search().views);
     expect(PagerCtrl.movePage('back')).toBe(-1);
     expect($location.search().views).toBe(-1);
 }); 
@@ -46,7 +45,6 @@ describe('Controller: PagerCtrl', function () {
         views: 1
     });
     PagerCtrl.movePage('back');
-    console.log($location.search().views);
     expect(PagerCtrl.movePage('next')).toBe(1);
     expect($location.search().views).toBe(1);
 });
