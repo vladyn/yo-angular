@@ -26,5 +26,6 @@ angular.module('ahkApp')
             $log.log("counter exeeds");
             direction === "back" ? this.next = true : this.back = true;
         }
+        console.log("voilaa");
     }
   });

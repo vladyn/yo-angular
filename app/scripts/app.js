@@ -23,14 +23,14 @@ angular
       .when('/', {
         templateUrl: '/views/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'MainCtrl'
       })
       .when('/views/:view', {
         templateUrl: function routeParams (params) {
           return "/views/view"+params.view+".html";
         },
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'MainCtrl'
       })
       .when('/about/', {
         templateUrl: '/views/about.html',
