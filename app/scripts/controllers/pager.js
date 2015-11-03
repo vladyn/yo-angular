@@ -8,24 +8,36 @@
  * Controller of the ahkApp
  */
 angular.module('ahkApp')
-  .controller('PagerCtrl', function ($location, $log, $routeParams) {
+  .controller('PagerCtrl', function ($scope, $location, $log) {
     var counter = 0,
         pageMax = 12, 
-        location;
+        pager = this;
+
+    this.count = 3;
 
     this.page = {
-        label_prev: "Предишна",
-        label_next: "Следва"
+        labelPrev: this.count,
+        labelPnext: this.count
     };
 
-    this.movePage = function movePage (direction) {
+    pager.movePage = function movePage (direction) {
         if (counter !== pageMax && counter >= 0) {
             direction === 'next' ? counter++ : counter--;
             Math.round(counter) > 0 ? $location.path("/views/" + counter) : counter = 1;
         } else {
             $log.log("counter exeeds");
-            direction === "back" ? this.next = true : this.back = true;
+            direction === "back" ? pager.next = true : pager.back = true;
         }
-        console.log("voilaa");
-    }
+    };
+
+
+    /*
+     It monitors for direct re-load 
+    */
+
+    $scope.$on('page-scanner-started', function(event, args) {
+        pager.count = args;
+        // console.log(counter);
+    });
+    console.log(pager.count);
   });

@@ -19,7 +19,8 @@
     "strict": true,
     "trailing": true,
     "undef": false,
-    "unused": true
+    "unused": true,
+    "expr ": true,
     "globals": {
         "angular": true,
         "$": true,
