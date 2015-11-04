@@ -19,22 +19,15 @@ angular.module('ahkApp')
         labelPnext: vm.count
     };
 
-    vm.movePage = function movePage (direction) {
-        position = direction === 'next' ? counter++ : counter--;
-        position = Math.round(counter) > 0 ? $location.path("/views/" + counter) : counter = 1;
-        console.log("inside loop " + counter);
-
-        vm.back = (counter < 2) ? true : false;
-        vm.next = (counter === pageMax) ? true : false;
-        return position;
-    };
-
-
-    /*
-     It monitors for direct re-load 
-    */
-
+    /* It monitors for direct re-load  */
     $scope.$on('page-scanner-started', function(event, args) {
         counter = args;
     });
+
+    vm.movePage = function movePage (direction) {
+        position = direction === 'next' ? counter++ : counter--;
+        vm.back = (counter < 2) ? true : false;
+        vm.next = (counter === pageMax) ? true : false;
+        position = Math.round(counter) > 0 ? $location.url("/views/" + counter) : counter = 1;
+    };
   });

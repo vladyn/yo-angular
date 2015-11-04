@@ -8,15 +8,14 @@
  * Controller of the ahkApp
  */
     angular.module('ahkApp')
-        .controller('MainCtrl', function ($rootScope, $location) {
+        .controller('MainCtrl', function ($rootScope, $location, urlExtractorService) {
         this.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
             'Karma'
         ];
 
-        var location = parseInt($location.path().slice(-1), 10);
-        location = angular.isNumber(location) ? location : 1;
+        var location = urlExtractorService.count(7);
 
         $rootScope.$broadcast('page-scanner-started', location);
 
