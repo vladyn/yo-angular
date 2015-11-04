@@ -427,7 +427,7 @@
 			"file": "app/scripts/controllers/pager.js",
 			"settings":
 			{
-				"buffer_size": 1030,
+				"buffer_size": 1024,
 				"line_ending": "Windows"
 			}
 		},
@@ -1188,6 +1188,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"vm",
+			"this",
+			"$scope.count",
 			"som",
 			"counter",
 			"artsHistoryKidsApp",
@@ -1312,10 +1315,7 @@
 			"switchpa",
 			"switch",
 			".switchpayment-form",
-			"mobile-portrait480",
-			"getMessageCode",
-			"transition",
-			"responsive"
+			"mobile-portrait480"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1373,6 +1373,14 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1502,6 +1510,14 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bh_regions":
@@ -1562,13 +1578,15 @@
 								"bh_regex_close",
 								"bh_regex_content"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1577,15 +1595,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								387,
-								387
+								314,
+								314
 							]
 						],
 						"settings":
@@ -1595,6 +1613,14 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1673,7 +1699,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1692,8 +1718,8 @@
 						"selection":
 						[
 							[
-								708,
-								708
+								2940,
+								2945
 							]
 						],
 						"settings":
@@ -1703,6 +1729,14 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1777,10 +1811,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 118.0,
+						"translation.y": 1123.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1807,6 +1841,14 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1882,7 +1924,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -2466,15 +2508,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "account",
+		"last_filter": "acc",
 		"selected_items":
 		[
 			[
-				"account",
+				"acc",
 				"C:\\Users\\vvarbanov\\Accounts3.sublime-project"
 			],
 			[
-				"acc",
+				"account",
 				"C:\\Users\\vvarbanov\\Accounts3.sublime-project"
 			],
 			[

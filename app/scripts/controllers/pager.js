@@ -8,26 +8,25 @@
  * Controller of the ahkApp
  */
 angular.module('ahkApp')
-  .controller('PagerCtrl', function ($scope, $location, $log) {
-    var counter = 0,
+  .controller('PagerCtrl', function ($scope, $location) {
+    var counter,
+        position,
         pageMax = 12, 
-        pager = this;
+        vm = this;
 
-    this.count = 3;
-
-    this.page = {
-        labelPrev: this.count,
-        labelPnext: this.count
+    vm.page = {
+        labelPrev: vm.count,
+        labelPnext: vm.count
     };
 
-    pager.movePage = function movePage (direction) {
-        if (counter !== pageMax && counter >= 0) {
-            direction === 'next' ? counter++ : counter--;
-            Math.round(counter) > 0 ? $location.path("/views/" + counter) : counter = 1;
-        } else {
-            $log.log("counter exeeds");
-            direction === "back" ? pager.next = true : pager.back = true;
-        }
+    vm.movePage = function movePage (direction) {
+        position = direction === 'next' ? counter++ : counter--;
+        position = Math.round(counter) > 0 ? $location.path("/views/" + counter) : counter = 1;
+        console.log("inside loop " + counter);
+
+        vm.back = (counter < 2) ? true : false;
+        vm.next = (counter === pageMax) ? true : false;
+        return position;
     };
 
 
@@ -36,8 +35,6 @@ angular.module('ahkApp')
     */
 
     $scope.$on('page-scanner-started', function(event, args) {
-        pager.count = args;
-        // console.log(counter);
+        counter = args;
     });
-    console.log(pager.count);
   });
