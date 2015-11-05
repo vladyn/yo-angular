@@ -8,10 +8,9 @@
  * Controller of the ahkApp
  */
 angular.module('ahkApp')
-  .controller('PagerCtrl', function ($scope, $location) {
+  .controller('PagerCtrl', function ($scope, $location, urlExtractorService) {
     var counter,
         position,
-        isItShowing,
         pageMax = 18, 
         vm = this;
 
@@ -21,8 +20,13 @@ angular.module('ahkApp')
     };
 
     /* It monitors for direct re-load  */
-    $scope.$on('page-scanner-started', function(event, args) {
+    $scope.$on('pager.location', function(event, args) {
         counter = args;
+    });
+
+    $scope.$on('pager.pagination.visible', function(event, args) {
+        vm.isItShowing = args.visibility;
+        console.log(vm.isItShowing);
     });
     
     // It controls when to show the prev / next arrows accross the screens
