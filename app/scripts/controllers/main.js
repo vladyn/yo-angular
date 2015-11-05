@@ -16,7 +16,8 @@
         ];
 
         var location = urlExtractorService.count(7);
-
-        $rootScope.$broadcast('page-scanner-started', location);
+        console.log("last index is " + $location.path().lastIndexOf('view') + "from main controller");
+        $rootScope.$broadcast('pager.location', location);
+        $rootScope.$broadcast('pager.pagination.visible', {visibility: true});
 
     });
