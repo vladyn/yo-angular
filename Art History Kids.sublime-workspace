@@ -411,15 +411,15 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 6501,
-				"line_ending": "Unix"
+				"buffer_size": 5801,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 1002,
+				"buffer_size": 1001,
 				"line_ending": "Windows"
 			}
 		},
@@ -427,7 +427,7 @@
 			"file": "app/scripts/controllers/main.js",
 			"settings":
 			{
-				"buffer_size": 677,
+				"buffer_size": 845,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,7 +435,7 @@
 			"file": "app/scripts/controllers/pager.js",
 			"settings":
 			{
-				"buffer_size": 1179,
+				"buffer_size": 1113,
 				"line_ending": "Windows"
 			}
 		},
@@ -468,6 +468,14 @@
 			"settings":
 			{
 				"buffer_size": 32480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/vvarbanov/AppData/Local/Temp/Temp1_mockPaymentMethods1.zip/mockPaymentMethods1.js",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -1355,7 +1363,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1363,7 +1371,7 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 6501,
+						"buffer_size": 5801,
 						"regions":
 						{
 						},
@@ -1387,6 +1395,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1612,7 +1624,7 @@
 					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 1002,
+						"buffer_size": 1001,
 						"regions":
 						{
 						},
@@ -1636,6 +1648,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1861,7 +1877,7 @@
 					"file": "app/scripts/controllers/main.js",
 					"settings":
 					{
-						"buffer_size": 677,
+						"buffer_size": 845,
 						"regions":
 						{
 						},
@@ -1885,6 +1901,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -2102,7 +2122,7 @@
 					"file": "app/scripts/controllers/pager.js",
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 1113,
 						"regions":
 						{
 						},
@@ -2125,6 +2145,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -2308,6 +2332,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2473,6 +2501,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -2648,6 +2680,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2818,6 +2854,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2957,6 +2997,174 @@
 				},
 				{
 					"buffer": 8,
+					"file": "/C/Users/vvarbanov/AppData/Local/Temp/Temp1_mockPaymentMethods1.zip/mockPaymentMethods1.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								120
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"boss": true,
+								"browser": true,
+								"curly": true,
+								"eqeqeq": true,
+								"eqnull": true,
+								"evil": true,
+								"forin": true,
+								"globals":
+								{
+									"Application": true,
+									"Ext": true,
+									"MAC": true,
+									"PPIPadGames": true,
+									"alert": true,
+									"beforeEach": true,
+									"browser": true,
+									"console": true,
+									"define": true,
+									"describe": true,
+									"element": true,
+									"expect": true,
+									"inject": true,
+									"it": true,
+									"jQuery": true,
+									"module": true,
+									"require": true,
+									"spyOn": true,
+									"waitsFor": true
+								},
+								"immed": true,
+								"indent": 4,
+								"jasmine": true,
+								"latedef": true,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"undef": true,
+								"unused": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": true,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "bright",
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": true,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"CSS": "css",
+								"ES.next": "js",
+								"Javascript": "js",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby",
+								"SASS": "scss"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/ECMAScript/ES.next.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "/C/Users/vvarbanov/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
 					"settings":
 					{
@@ -2983,6 +3191,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{

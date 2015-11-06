@@ -8,7 +8,7 @@
  * Controller of the ahkApp
  */
 angular.module('ahkApp')
-  .controller('PagerCtrl', function ($scope, $location, urlExtractorService) {
+  .controller('PagerCtrl', function ($scope, $location) {
     var counter,
         position,
         pageMax = 18, 
@@ -22,8 +22,6 @@ angular.module('ahkApp')
         labelPrev: "Предишна",
         labelNext: "Следваща"
     };
-
-    vm.isItShowing = false;
 
     /* It monitors for direct re-load  */
     $scope.$on('pager.location', function(event, args) {

@@ -15,7 +15,19 @@
 				".project",
 				".tern-project",
 				"/phantomjsdriver.log",
-				"/test/e2e/runner-dev.js"
+				"/test/e2e/runner-dev.js",
+				"/node_modules",
+				"/dist",
+				"/.tmp",
+				"/.sass-cache",
+				"/bower_components",
+				"/app/bower_components",
+				"/.DS_Store",
+				"/*.DS_Store",
+				"*.DS_Store",
+				"*.espressostorage",
+				"Find Results",
+				"ahk.esproj/user.vbey.espressostorage"
 			],
 			"folder_exclude_patterns":
 			[
