@@ -6,11 +6,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
+    <!-- build:css(app) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
+    <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
@@ -74,28 +74,13 @@
       </div>
     </div>
 
+    <div ng-include src="'views/paging.html'"></div>
+
     <div class="container">
         <div ng-view=""></div>
     </div>
-    <div class="container">        
-        <nav ng-controller="PagerCtrl as pager">
-            <ul class="pager" ng-show="pager.isItShowing">
-                <li class="previous">
-                    <a ng-click="pager.movePage('back')" ng-hide="pager.back" href="javascript: ;"><span aria-hidden="true">&larr;</span> {{pager.page.labelPrev}}</a>
-                </li>
-                <li class="next">
-                    <a ng-click="pager.movePage('next')" ng-hide="pager.next" href="javascript: ;">{{pager.page.labelNext}} <span aria-hidden="true">&rarr;</span></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
-    <div class="footer">
-      <div class="container">
-        <!-- <p><span class="glyphicon glyphicon-heart"></span> Проект на HISTORY ART KIDS</p> -->
-      </div>
-    </div>
-
+    <div ng-include src="'views/footer.html'"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <!--      <script>
@@ -108,7 +93,7 @@
        ga('send', 'pageview');
     </script> -->
 
-    <!-- build:js(.) scripts/vendor.js -->
+    <!-- build:js(app) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
