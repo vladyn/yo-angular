@@ -14,6 +14,10 @@ angular.module('ahkApp')
         pageMax = 18, 
         vm = this;
 
+    // it is better isItShowing to have 
+    // value equal to false immediately
+    vm.isItShowing = false; 
+    
     vm.page = {
         labelPrev: "Предишна",
         labelNext: "Следваща"
