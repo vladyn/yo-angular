@@ -19,6 +19,8 @@ angular.module('ahkApp')
         labelNext: "Следваща"
     };
 
+    vm.isItShowing = false;
+
     /* It monitors for direct re-load  */
     $scope.$on('pager.location', function(event, args) {
         counter = args;
@@ -28,9 +30,6 @@ angular.module('ahkApp')
         vm.isItShowing = args.visibility;
         console.log(vm.isItShowing);
     });
-    
-    // It controls when to show the prev / next arrows accross the screens
-    vm.isItShowing = $location.path().lastIndexOf('view') === 1 ? true : false;
 
     vm.movePage = function movePage (direction) {
         position = direction === 'next' ? counter++ : counter--;

@@ -419,7 +419,7 @@
 			"file": "app/scripts/controllers/main.js",
 			"settings":
 			{
-				"buffer_size": 677,
+				"buffer_size": 845,
 				"line_ending": "Unix"
 			}
 		},
@@ -427,7 +427,7 @@
 			"file": "app/scripts/services/urlextractorservice.js",
 			"settings":
 			{
-				"buffer_size": 748,
+				"buffer_size": 608,
 				"line_ending": "Windows"
 			}
 		},
@@ -435,7 +435,7 @@
 			"file": "app/scripts/controllers/pager.js",
 			"settings":
 			{
-				"buffer_size": 1179,
+				"buffer_size": 1048,
 				"line_ending": "Windows"
 			}
 		},
@@ -1348,7 +1348,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1375,6 +1375,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1489,15 +1493,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 677,
+						"buffer_size": 845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								667,
-								667
+								208,
+								208
 							]
 						],
 						"settings":
@@ -1507,6 +1511,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1596,7 +1604,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1605,15 +1613,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 748,
+						"buffer_size": 608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								557,
-								557
+								593,
+								593
 							]
 						],
 						"settings":
@@ -1623,6 +1631,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1688,7 +1700,9 @@
 								"bh_round_close",
 								"bh_round_content"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1703,15 +1717,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 1048,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								535,
-								535
+								711,
+								711
 							]
 						],
 						"settings":
@@ -1721,6 +1735,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1814,7 +1832,7 @@
 						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1841,6 +1859,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1923,7 +1945,7 @@
 								"bh_round_content"
 							],
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -2514,7 +2536,7 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "acc",
+		"last_filter": "",
 		"selected_items":
 		[
 			[

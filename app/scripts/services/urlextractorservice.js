@@ -3,8 +3,7 @@
 angular.module('ahkApp')
   .service('urlExtractorService', function urlExtractorService($location) {
     // AngularJS will instantiate a singleton by calling "new" on this function
-    var locationListener, 
-    	location;
+    var location;
     function count (from, to) {
         from = angular.isDefined(from) ? from : 0;
 
@@ -14,18 +13,11 @@ angular.module('ahkApp')
 
         location = angular.isNumber(location) ? location : 1;
 
-        locationListener = location;
         return location;
-    }
-
-    function get () {
-
-    	return locationListener;
     }
 
     // Return the public API.
     return ({
-        count: count, 
-        get: get
+        count: count
     });
   });
