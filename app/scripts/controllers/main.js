@@ -16,7 +16,7 @@
         ];
 
         var location = urlExtractorService.count(7),
-            isItShowing = $location.path().lastIndexOf('view') === 1 ? true : false;
+            isItShowing = $location.path().lastIndexOf('view') === 1;
 
     // It controls when to show the prev / next arrows accross the screens
         console.log("last index is " + $location.path().lastIndexOf('view') + "from main controller");
