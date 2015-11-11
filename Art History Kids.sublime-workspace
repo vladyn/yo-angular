@@ -451,7 +451,7 @@
 			"file": "/C/export/www/accounts/app/css/app.css",
 			"settings":
 			{
-				"buffer_size": 514929,
+				"buffer_size": 534889,
 				"line_ending": "Windows"
 			}
 		},
@@ -472,7 +472,10 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "/C/Users/vvarbanov/AppData/Local/Temp/Temp1_mockPaymentMethods1.zip/mockPaymentMethods1.js",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -1024,6 +1027,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/vvarbanov/Documents/key URL's.md",
 		"/C/export/www/arts_history_kids/app/styles/main.scss",
 		"/C/export/www/arts_history_kids/bower.json",
 		"/C/export/www/arts_history_kids/app/scripts/controllers/about.js",
@@ -1150,8 +1154,7 @@
 		"/C/export/www/accounts/app/js/controllers/withdraw/CardWithdrawController.js",
 		"/C/export/www/accounts/app/js/controllers/deposit/CardDepositController.js",
 		"/C/export/www/accounts/app/js/services/SwitchPaymentService.js",
-		"/C/export/www/accounts/config/karma.conf.js",
-		"/C/export/www/accounts/app/js/directives/withSpinner.js"
+		"/C/export/www/accounts/config/karma.conf.js"
 	],
 	"find":
 	{
@@ -1395,6 +1398,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1677,6 +1684,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bh_regions":
@@ -1901,6 +1912,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -2158,6 +2173,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2336,6 +2355,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2478,7 +2501,7 @@
 					"file": "/C/export/www/accounts/app/css/app.css",
 					"settings":
 					{
-						"buffer_size": 514929,
+						"buffer_size": 534889,
 						"regions":
 						{
 						},
@@ -2501,6 +2524,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -2684,6 +2711,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -2849,6 +2880,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -3028,6 +3063,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"csslint_options":
@@ -3191,6 +3230,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{

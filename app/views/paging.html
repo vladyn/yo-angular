@@ -1,5 +1,5 @@
-<div class="container" ng-swipe-left="pager.movePage('next')" ng-swipe-right="pager.movePage('back')">
-    <nav ng-controller="PagerCtrl as pager">
+<div class="container">
+    <nav ng-controller="PagerCtrl as pager" ng-swipe-left="pager.movePage('next')" ng-swipe-right="pager.movePage('back')">
         <ul class="pager" ng-show="pager.isItShowing">
             <li class="previous">
                 <a ng-click="pager.movePage('back')" ng-hide="pager.back" href="javascript: ;"><span aria-hidden="true">&larr;</span> {{pager.page.labelPrev}}</a>

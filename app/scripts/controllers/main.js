@@ -22,5 +22,4 @@
     //    console.log("last index is " + $location.path().lastIndexOf('view') + "from main controller");
         $rootScope.$broadcast('pager.location', location);
         $rootScope.$broadcast('pager.pagination.visible', {visibility: isItShowing});
-
     });
