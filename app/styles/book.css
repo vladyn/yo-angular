@@ -1,1 +1,9 @@
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+body {
+    background: #f5f5f5 url('../images/bg.jpg');
+}
+
+.header {
+    height: 4px;
+    background: url('../images/topstrip.png');
+}
