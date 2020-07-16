@@ -31,7 +31,6 @@
     "jshint-stylish": "^1.0.0",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
-    "lodash": "^3.10.1",
     "maxmin": "^1.1.0",
     "time-grunt": "^1.0.0",
     "uglify-js": "^2.5.0"
